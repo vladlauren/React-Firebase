@@ -1,0 +1,31 @@
+.ContentRight {
+  width: 100%;
+}
+
+.ContentRight img {
+  width: 300px;
+  margin: 40px;
+  margin-left: 65%;
+  margin-top: 80px;
+}
+
+.Text {
+  width: 700px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+.Text h1 {
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 7%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.Text p {
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 18%;
+  font-size: 25px;
+}

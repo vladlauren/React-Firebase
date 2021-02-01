@@ -1,0 +1,33 @@
+.ProductDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Image {
+  flex: 2 1 10rem;
+}
+.Details {
+  flex: 1 1 10rem;
+}
+.Action {
+  flex: 1 1 10rem;
+}
+
+.Details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Action ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Details li {
+  margin-bottom: 1rem;
+}
+.Action li {
+  margin-bottom: 1rem;
+}

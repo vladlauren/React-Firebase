@@ -1,0 +1,60 @@
+import img1 from "../src/assets/images/Home/imprimanta.png";
+
+export default {
+  products: [
+    {
+      _id: "1",
+      name: "Dart Vader",
+      image: img1,
+      price: 60,
+      brand: "PLA",
+      rating: 4.5,
+      numRating: 10,
+    },
+    {
+      _id: "2",
+      name: "Sandra",
+      image: img1,
+      price: 7000,
+      brand: "PLA",
+      rating: 4.6,
+      numRating: 10,
+    },
+    {
+      _id: "3",
+      name: "Vlad",
+      image: img1,
+      price: 60,
+      brand: "PLA",
+      rating: 4.5,
+      numRating: 10,
+    },
+    {
+      _id: "4",
+      name: "Dart Vader",
+      image: img1,
+      price: 60,
+      brand: "PLA",
+      rating: 4.5,
+      numRating: 10,
+    },
+    {
+      _id: "5",
+      name: "Dart Vader",
+      image: img1,
+      price: 60,
+      brand: "PLA",
+      rating: 4.5,
+      numRating: 10,
+    },
+    {
+      _id: "6",
+      name: "Dart Vader",
+      image: img1,
+      price: 60,
+      brand: "PLA",
+      rating: 4.5,
+      numRating: 10,
+    },
+  ],
+};

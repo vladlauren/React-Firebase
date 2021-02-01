@@ -1,0 +1,9 @@
+.Inp {
+  margin: 20px;
+}
+
+.Inp input {
+  padding: 10px;
+  border-radius: 12px;
+  width: 95%;
+}

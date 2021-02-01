@@ -1,0 +1,43 @@
+.Imagine {
+  background-color: rgb(213, 215, 216);
+}
+
+.Formular {
+  width: 500px;
+  margin: auto;
+  min-height: 600px;
+  padding: 40px;
+}
+
+.Formular form {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  padding: 10px;
+  margin: auto;
+}
+.Formular form h2 {
+  color: white;
+  margin: 10px;
+  border-bottom: 2px solid rgb(199, 199, 142);
+  font-family: sans-serif;
+}
+
+.ArrowL {
+  width: 400px;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 20%;
+}
+.ArrowL img {
+  width: 300px;
+}
+
+.ArrowR {
+  width: 400px;
+  position: absolute;
+
+  margin-left: 60%;
+}
+.ArrowR img {
+  width: 400px;
+}

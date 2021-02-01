@@ -1,0 +1,13 @@
+.Button button {
+  font-size: 17px;
+  margin: 10px;
+  width: 92%;
+  background: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.Button button:hover {
+  background-color: rgb(199, 199, 142);
+}
