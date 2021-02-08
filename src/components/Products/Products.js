@@ -18,10 +18,13 @@ const ProductsResults = () => {
     dispatch(fetchProductsStart());
   }, []);
   return (
-    <div className={classes.Products}>
-      {products.map((product) => {
-        return <Product {...product} />;
-      })}
+    <div className={classes.Produse}>
+      <h1>Produsele Noastre</h1>
+      <div className={classes.Products}>
+        {products.map((product) => {
+          return <Product {...product} />;
+        })}
+      </div>
     </div>
   );
 };

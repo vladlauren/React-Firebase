@@ -9,16 +9,19 @@
   flex: 0 1 34rem;
   padding: 0;
   margin: 1rem;
-  height: 25rem;
-  border-bottom: 0.1rem #c0c0c0 solid;
+  height: 22rem;
+  border-bottom: 1px solid rgb(181, 184, 26);
   list-style: none;
 }
 .Name a {
   text-decoration: none;
+  color: rgb(181, 184, 26);
+  font-family: sans-serif;
 }
 
 .Name a:hover {
-  color: #ff8000;
+  color: rgb(181, 184, 26);
+  text-decoration: none;
 }
 .Product {
   display: flex;
@@ -27,12 +30,16 @@
   height: 100%;
 }
 .Img {
-  max-width: 30rem;
-  max-height: 14rem;
+  /*max-width: 30rem;
+  max-height: 14rem; 
+  */
+  width: 200px;
+  height: 200px;
 }
 .Name {
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 .Brand {
   font-size: 1.2rem;
@@ -41,6 +48,7 @@
 .Price {
   font-size: 2 rem;
   font-weight: bold;
+  text-align: center;
 }
 .Rating {
   margin-bottom: 1rem;

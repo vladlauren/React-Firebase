@@ -4,13 +4,13 @@
 
 .ContentLeft img {
   width: 300px;
-  margin: 80px;
-  margin-top: 120px;
+  margin: 90px;
+  margin-top: 100px;
 }
 .Text {
   width: 700px;
   position: absolute;
-  margin-top: 70px;
+  margin-top: 100px;
   margin-left: 40%;
 }
 .Text h1 {
@@ -19,6 +19,7 @@
   margin-top: 7%;
   font-family: sans-serif;
   font-weight: bold;
+  border-bottom: 1px solid rgb(156, 158, 2);
 }
 
 .Text p {

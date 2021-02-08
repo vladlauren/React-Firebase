@@ -1,24 +1,99 @@
 .Shop {
   background-color: rgb(213, 215, 216);
 }
+.Backgr {
+  background-color: rgb(213, 215, 216);
+  background-color: rgba(1, 1, 1, 0.2);
+  background-image: url("../../assets/images/Login/imprimanta.png");
+  background-size: 25% 50%;
+  background-repeat: no-repeat;
 
+  height: 500px;
+  background-position: 10% 70%;
+}
+
+.Backgr img {
+  width: 200px;
+  margin: 7% 0 0 70%;
+}
+.Text {
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(156, 158, 2);
+  width: 500px;
+  text-align: center;
+  font-size: 35px;
+  margin: 16% 0 0 33%;
+}
+@keyframes myAnimation {
+  0% {
+    background-image: url(../../assets/images/Shop/car.png);
+    opacity: 0;
+  }
+  8.33% {
+    background-image: url(../../assets/images/Shop/car.png);
+    opacity: 1;
+  }
+  16.66% {
+    background-image: url(../../assets/images/Shop/car.png);
+    opacity: 0;
+  }
+
+  25% {
+    background-image: url(../../assets/images/Shop/house.png);
+    opacity: 0;
+  }
+  33.32% {
+    background-image: url(../../assets/images/Shop/house.png);
+    opacity: 1;
+  }
+  41.65% {
+    background-image: url(../../assets/images/Shop/house.png);
+    opacity: 0;
+  }
+  50% {
+    background-image: url(../../assets/images/Shop/boat.png);
+    opacity: 0;
+  }
+  58.31% {
+    background-image: url(../../assets/images/Shop/boat.png);
+    opacity: 1;
+  }
+  66.64% {
+    background-image: url(../../assets/images/Shop/boat.png);
+    opacity: 0;
+  }
+  75% {
+    background-image: url(../../assets/images/Shop/pc.png);
+    opacity: 0;
+  }
+  83.3% {
+    background-image: url(../../assets/images/Shop/pc.png);
+    opacity: 1;
+  }
+  91.63% {
+    background-image: url(../../assets/images/Shop/pc.png);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.myDiv {
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  margin: 19% 0 0 18%;
+  background-size: 100% 100%;
+  animation: myAnimation 25s linear infinite;
+}
 .Spatiu {
   width: 100%;
   height: 50px;
   background-color: black;
 }
-
-.Cos {
-  width: 100%;
-  height: 30px;
-  background-color: teal;
-}
-
-.Cos a {
-  color: black;
-  font-size: 20px;
-  margin-left: 45%;
-}
-.Cos a:hover {
-  color: black;
+.ShopRight {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
 }

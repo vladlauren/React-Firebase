@@ -6,6 +6,8 @@ import ContentRight from "../../components/ContentRight/ContentRight";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import classes from "./Home.css";
 import GoToAdminPanel from "../../components/GoToAdminPanel/GoToAdminPanel";
+import ImageFloat from "../../components/ImageFloat/ImageFloat";
+import SlideShow from "../../components/SlideShow/SlideShow";
 
 import imprimanta from "../../assets/images/Home/imprimanta.png";
 import produs from "../../assets/images/Home/produs.png";
@@ -22,22 +24,23 @@ class Home extends Component {
     return (
       <div className={classes.Home}>
         <Menu />
-        <GoToAdminPanel />
+
         <ContentLeft
           text={this.text}
           textAdiacent={this.textChild}
-          imagine={imprimanta}
+          imagine={produs}
         />
         <ContentRight
           text={this.text2}
           textAdiacent={this.textChild}
-          imagine={produs}
+          imagine={imprimanta}
         />
         <ContentLeft
           text={this.text3}
           textAdiacent={this.textChild}
           imagine={delivery}
         />
+        <SlideShow />
         <Testimonials />
         <Footer />
       </div>

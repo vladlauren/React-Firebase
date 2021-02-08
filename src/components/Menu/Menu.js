@@ -16,33 +16,26 @@ class Menu extends Component {
         <ul className={classes.Navbar}>
           <li>
             <NavLink exact activeClassName={classes.Active} to="/">
-              Acasa
+              Home
             </NavLink>
           </li>
 
           <li>
             <NavLink exact activeClassName={classes.Active} to="/Magazin">
-              Magazin
+              Shop
             </NavLink>
           </li>
 
           {!currentUser && (
             <li style={{ float: "right" }}>
-              <NavLink exact activeClassName={classes.Active} to="/Register">
-                Inregistrare
-              </NavLink>
-            </li>
-          )}
-          {!currentUser && (
-            <li style={{ float: "right" }}>
               <NavLink exact activeClassName={classes.Active} to="/Login">
-                Logare
+                Log in
               </NavLink>
             </li>
           )}
           {currentUser && (
             <li onClick={() => auth.signOut()} style={{ float: "right" }}>
-              <NavLink to="">LOG OUT</NavLink>
+              <NavLink to="">Log out</NavLink>
             </li>
           )}
         </ul>

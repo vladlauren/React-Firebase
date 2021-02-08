@@ -31,7 +31,6 @@ const product = (product) => {
               <Button onClick={() => handleAddToCart(product)}>
                 ADD TO CART
               </Button>
-              stars of ( reviews)
             </div>
           </div>
         </li>

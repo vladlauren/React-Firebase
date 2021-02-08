@@ -6,6 +6,9 @@ import Menu from "../../components/Menu/Menu";
 import Footer from "../../components/Footer/Footer";
 import arrowLeft from "../../assets/images/Login/arrowLeft.png";
 import arrowRight from "../../assets/images/Login/arrowRight.png";
+import { Link } from "react-router-dom";
+
+import imprimanta from "../../assets/images/Login/imprimanta.png";
 
 import FormInput from "../../components/forms/FormInput/FormInput";
 
@@ -45,10 +48,15 @@ class Login extends Component {
     return (
       <div className={classes.Imagine}>
         <Menu />
-
-        <div className={classes.ArrowR}>
-          <img src={arrowRight} />
+        <div className={classes.Imagination}>
+          <p>
+            <i>
+              Everything you can imagine is <b>REAL</b>
+            </i>
+          </p>
         </div>
+        <div className={classes.Author}>-PABLO PICASSO</div>
+
         <div className={classes.Formular}>
           <form onSubmit={this.handleSubmit}>
             <h2>Logare</h2>
@@ -66,12 +74,15 @@ class Login extends Component {
               placeholder="password"
               handleChange={this.handleChange}
             />
-            <Button type="submit">Log In</Button>
-            <Button onClick={signInWithGoogle}>Sign in with Google</Button>
+            <Button type="submit" style={{ color: "black" }}>
+              Logare
+            </Button>
+            <Button onClick={signInWithGoogle} style={{ color: "black" }}>
+              Logare folosind Google
+            </Button>
+            <Link to="/Register">Creaza un cont</Link>
           </form>
         </div>
-
-        <Footer />
       </div>
     );
   }

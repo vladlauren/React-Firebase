@@ -7,6 +7,7 @@ import Products from "../../components/Products/Products";
 import { auth } from "../../firebase/utils";
 import { Link } from "react-router-dom";
 import { selectCartItemsCount } from "../../redux/Cart/cart.selectors";
+import thinking from "../../assets/images/Shop/man.png";
 
 const mapState = (state) => ({
   totalNumberCartItems: selectCartItemsCount(state),
@@ -14,15 +15,27 @@ const mapState = (state) => ({
 
 const Shop = (props) => {
   const { totalNumberCartItems } = useSelector(mapState);
+  <div className={classes.ShopLeft}>
+    <Link to="/Cart">Cosul MEU ({totalNumberCartItems})</Link>
+  </div>;
 
   const { currentUser } = props;
   return (
     <div className={classes.Shop}>
       <Menu />
-      <div className={classes.Cos}>
-        <Link to="/Cart">Cosul MEU ({totalNumberCartItems})</Link>
+      <div className={classes.myDiv}></div>
+      <div className={classes.Text}>
+        <b>
+          {" "}
+          <i>Tot ce iti poti imagina se poate printa!</i>
+        </b>
       </div>
-      <Products />
+      <div className={classes.Backgr}>
+        <img src={thinking} />
+      </div>
+      <div className={classes.ShopRight}>
+        <Products />
+      </div>
       <Footer />
     </div>
   );

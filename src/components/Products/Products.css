@@ -4,3 +4,14 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.Produse h1 {
+  margin: 40px 0 70px 90px;
+  text-align: center;
+  border-bottom: 1px solid rgb(156, 158, 2);
+  font-family: sans-serif;
+}
+
+.Produse {
+  padding: 30px;
+}

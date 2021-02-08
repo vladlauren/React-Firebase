@@ -1,33 +1,62 @@
 .Imagine {
   background-color: rgb(213, 215, 216);
-}
+  background-color: rgba(1, 1, 1, 0.2);
+  background-image: url("../../assets/images/Login/imprimanta.png");
+  background-size: 40% 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-.ArrowR {
-  width: 400px;
-  position: absolute;
-
-  margin-left: 60%;
-}
-.ArrowR img {
-  width: 400px;
+  background-position: 10% 70%;
 }
 
 .Formular {
-  width: 500px;
-  margin: auto;
-  min-height: 600px;
+  width: 480px;
+  margin-left: 55%;
+  margin-top: 60px;
+
+  min-height: 532px;
   padding: 40px;
 }
 
 .Formular form {
-  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 12px;
   padding: 10px;
   margin: auto;
 }
 .Formular form h2 {
-  color: white;
+  color: rgb(156, 158, 2);
   margin: 10px;
-  border-bottom: 2px solid rgb(199, 199, 142);
+  border-bottom: 2px solid rgb(156, 158, 2);
   font-family: sans-serif;
+}
+.Imagination p {
+  color: rgb(156, 158, 2);
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  font-family: verdana;
+  font-weight: 400;
+  font-size: 27px;
+  margin: 15% 0 0 22%;
+  animation: animatie 5s steps(29);
+}
+
+@keyframes animatie {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.Author {
+  color: rgb(156, 158, 2);
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  margin: 27% 0 0 22%;
+  animation: animatie 5s steps(29);
 }

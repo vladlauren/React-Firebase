@@ -4,11 +4,14 @@ import Testimonial from "./Testimonial/Testimonial";
 
 const testimonials = () => {
   return (
-    <div className={classes.Testimonials}>
-      <Testimonial />
-      <Testimonial />
-      <Testimonial />
-      <Testimonial />
+    <div className={classes.Principal}>
+      <h1>Ce zic persoanele care au cumparat de la noi?</h1>
+      <div className={classes.Testimonials}>
+        <Testimonial />
+        <Testimonial />
+        <Testimonial />
+        <Testimonial />
+      </div>
     </div>
   );
 };

@@ -73,9 +73,15 @@ class Register extends Component {
     return (
       <div className={classes.Imagine}>
         <Menu />
-        <div className={classes.ArrowR}>
-          <img src={arrowRight} />
+        <div className={classes.Imagination}>
+          <p>
+            <i>
+              Everything you can imagine is <b>REAL</b>
+            </i>
+          </p>
         </div>
+        <div className={classes.Author}>-PABLO PICASSO</div>
+
         <div className={classes.Formular}>
           {errors.length > 0 && (
             <ul>
@@ -117,7 +123,6 @@ class Register extends Component {
             <Button type="submit">Register</Button>
           </form>
         </div>
-        <Footer />
       </div>
     );
   }

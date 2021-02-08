@@ -1,0 +1,40 @@
+.Slide {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 220px;
+}
+.Slide h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid rgb(156, 158, 2);
+  margin-bottom: 50px;
+}
+.Imagine {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.InteriorSlide {
+  margin-left: 70px;
+  padding: 20px;
+}
+
+.TextSlide {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.TextSlide a {
+  color: rgb(156, 158, 2);
+  text-decoration: none;
+}
+
+.TextSlide a:hover {
+  color: rgb(156, 158, 2);
+  text-decoration: none;
+}
